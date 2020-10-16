@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/all.min.css">
+    <link rel="stylesheet" href="styles/main.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container header__nav">
+            <div class="header__nav-top">
+                <a href="#" class="header__nav-lang">ru</a>
+                <h1 class="header__title">TOTEMBO</h1>
+                <a href="#" class="header__nav-search">
+                    <i class="fal fa-search"></i>
+                </a>
+            </div>
+            <div class="header__nav-bottom">
+                <button class="header__nav-btn">
+                    <i class="fal fa-bars"></i>
+                </button>
+                <ul class="header__nav-list">
+                    <button class="header__nav-times">
+                        <i class="fal fa-times"></i>
+                    </button>
+                    <li><a href="#" class="header__nav-link">Часы</a></li>
+                    <li><a href="#" class="header__nav-link">Кольца</a></li>
+                    <li><a href="#" class="header__nav-link">Серьги</a></li>
+                    <li><a href="#" class="header__nav-link">Браслеты</a></li>
+                    <li><a href="#" class="header__nav-link">Клатчи</a></li>
+                    <li><a href="#" class="header__nav-link">Цепочки</a></li>
+                </ul>
+
+                <ul class="header__nav-controls">
+                    <li><a href="#" class="header__nav-icon" id="like" data-target=".like-sidebar">
+                            <i class="fal fa-heart"></i>
+                        </a></li>
+                    <li><a href="#" class="header__nav-icon" id="cart" data-target=".cart-sidebar"><i
+                                class="fal fa-shopping-cart"></i>
+                        </a></li>
+                    <li><a href="#" class="header__nav-icon">
+                            <i class="fal fa-user"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<aside class="like-sidebar" data-array="like">
+    <button class="like-sidebar__times" data-target="like">
+        <i class="fal fa-times"></i>
+    </button>
+    <div class="like-sidebar__product-list">
+        
+    </div>
+</aside>
+<aside class="cart-sidebar" data-array="cart">
+    <button class="cart-sidebar__times" data-target="cart">
+        <i class="fal fa-times"></i>
+    </button>
+    <div class="like-sidebar__product-list">
+        
+    </div>
+</aside>
+    
+    <main class="main">
+
+        <div class="header__content container">
+
+            <div class="header__content-item" data-name="Fantastic Style" data-price="1128 000">
+
+                <div class="header__content-sale">50%</div>
+
+                <div class="header__content-like"><i class="fal fa-heart"></i></div>
+
+                <div class="header__content-cart"><i class="fal fa-shopping-cart"></i></div>
+
+                <div class="header__content-product">
+
+                    <img src="images/clock.png" class="header__content-image" alt="watch">
+
+                    <div class="header__content-info">
+
+                        <h4 class="header__content-name">Fantastic Style</h4>
+
+                        <p class="header__content-price">1 128 000 UZS</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="header__content-item" data-name="Fossil" data-price="2128 000">
+
+                <div class="header__content-sale">50%</div>
+
+                <div class="header__content-like"><i class="fal fa-heart"></i></div>
+
+                <div class="header__content-cart"><i class="fal fa-shopping-cart"></i></div>
+
+                <div class="header__content-product">
+
+                    <img src="images/image-5.png" class="header__content-image" alt="watch">
+
+                    <div class="header__content-info">
+
+                        <h4 class="header__content-name">Fossil</h4>
+
+                        <p class="header__content-price">2 128 000 UZS</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="header__content-item" data-name="CASIO" data-price="2528 000">
+
+                <div class="header__content-sale">50%</div>
+
+                <div class="header__content-like"><i class="fal fa-heart"></i></div>
+
+                <div class="header__content-cart"><i class="fal fa-shopping-cart"></i></div>
+
+                <div class="header__content-product">
+
+                    <img src="images/image-4.png" image-4.png class="header__content-image" alt="watch">
+
+                    <div class="header__content-info">
+
+                        <h4 class="header__content-name">CASIO</h4>
+
+                        <p class="header__content-price">2 528 000 UZS</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <section class="leader container">
+            <h2 class="leader__title">Lider Prodaj</h2>
+            <div class="leader__content">
+                <div class="leader__item" data-name="Fantastic Style" data-price="1128 000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/clock.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name="Fantastic Style" data-price="1128 000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-6.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name="Fantastic Style" data-price="1128 000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-7.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name="Fantastic Style" data-price="1128 000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-8.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name="Fantastic Style" data-price="1128 000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-9.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name="Fantastic Style" data-price="1128 000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-10.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name="Fantastic Style" data-price="1128 000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-11.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="leader__item" data-name="Fantastic Style" data-price="1128 000">
+                    <div class="leader__content-sale">50%</div>
+                    <div class="leader__content-like"><i class="fal fa-heart"></i></div>
+                    <div class="leader__content-cart"><i class="fal fa-shopping-cart"></i></div>
+                    <div class="leader__content-product">
+                        <img src="images/image-12.png" class="leader__content-image" alt="watch">
+                        <div class="leader__content-info">
+                            <h4 class="leader__content-name">Fantastic Style</h4>
+                            <p class="leader__content-price">1 128 000 UZS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <h2 class="news__title">новости</h2>
+            <div class="container news__content">
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">советы</div>
+                        <h4 class="news__item-title"> в стране гласных и согласных, живут. Вскоре, переписали.</h4>
+                        <p class="news__item-text">Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Напоивший она букв большого, вершину агентство семантика рыбного речью его снова!</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">советы</div>
+                        <h4 class="news__item-title"> в стране гласных и согласных, живут. Вскоре, переписали.</h4>
+                        <p class="news__item-text">Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Напоивший она букв большого, вершину агентство семантика рыбного речью его снова!</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">советы</div>
+                        <h4 class="news__item-title"> в стране гласных и согласных, живут. Вскоре, переписали.</h4>
+                        <p class="news__item-text">Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Напоивший она букв большого, вершину агентство семантика рыбного речью его снова!</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">советы</div>
+                        <h4 class="news__item-title"> в стране гласных и согласных, живут. Вскоре, переписали.</h4>
+                        <p class="news__item-text">Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Напоивший она букв большого, вершину агентство семантика рыбного речью его снова!</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">советы</div>
+                        <h4 class="news__item-title"> в стране гласных и согласных, живут. Вскоре, переписали.</h4>
+                        <p class="news__item-text">Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Напоивший она букв большого, вершину агентство семантика рыбного речью его снова!</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__item_dark">
+                        <div class="news__item-type">советы</div>
+                        <h4 class="news__item-title"> в стране гласных и согласных, живут. Вскоре, переписали.</h4>
+                        <p class="news__item-text">Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Напоивший она букв большого, вершину агентство семантика рыбного речью его снова!</p>
+                        <div class="news__item-time">
+                            <i class="fal fa-clock"></i>
+                            <output class="news__item-output"></output>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+ <footer class="footer">
+     <div class="container">
+         <div class="row">
+             <div class="col-6 col-lg-3">
+                 <h5 class="footer__title">Товары</h5>
+                 <ul class="footer__list">
+                     <li><a class="footer__link" href="#!">часы</a></li>
+                     <li><a class="footer__link" href="#!">кольца</a></li>
+                     <li><a class="footer__link" href="#!">серьги</a></li>
+                     <li><a class="footer__link" href="#!">браслеть</a></li>
+                     <li><a class="footer__link" href="#!">клатчи</a></li>
+                     <li><a class="footer__link" href="#!">цепочки</a></li>
+                 </ul>
+             </div>
+             <div class="col-6 col-lg-3">
+                 <h5 class="footer__title">покупателям</h5>
+                 <ul class="footer__list">
+                     <li><a class="footer__link" href="#!">скидки</a></li>
+                     <li><a class="footer__link" href="#!">новости</a></li>
+                    
+                 </ul>
+             </div>
+             <div class="col-12 col-lg-6">
+               <div class="row footer__right">
+                 <div class="footer__contact col-lg-12 col-sm-6 col-12">
+                     <h5 class="footer__title">покупателям</h5>
+                     <a class="footer__info" href= "https://goo.gl/maps/75gXrNh4e2zc98ur9">Ул. Аския, Яккасарайский район, Ташкент, Узбекистан</a>
+                     <div class="footer__tel">
+                         <a class="footer__info" href="tel:+99897 742 54 14">99897 742 54 14</a>
+                         <a class="footer__info" href="tel:+99897 742 54 14">99897 742 54 14</a>
+                     </div>
+                     <a class="footer__info" href="mailto:totembo@exapmle.com">totembo@exapmle.com</a>
+     
+                     
+                    </div>
+                    <div class="footer__social col-lg-12 col-sm-6 col-12">
+                     <h5 class="footer__title">социальные сети</h5>
+                     <ul class="footer__social-list">
+                         <li><a class="footer__social-icon" href="#!"><i class="fab fa-vk"></i></a></li>
+                         <li><a class="footer__social-icon" href="#!"><i class="fab fa-youtube"></i></a></li>
+                         <li><a class="footer__social-icon" href="#!"><i class="fab fa-instagram"></i></a></li>
+                         <li><a class="footer__social-icon" href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                     </ul>
+                 </div>
+               </div>
+                 
+             </div>
+         </div>
+     </div>
+ </footer>
+ 
+ <script src="scripts/common.min.js"></script>
+ </body>
+ 
+ </html>
